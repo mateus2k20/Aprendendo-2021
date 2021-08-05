@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+</html>
+    <body><h1> Olá desenvolvedor Junior.</h1>
+         <h2>Digite seu cadrasto para ter acesso.</h2>
+         <h3>Dica "Javascript"</h3>
+        <button>
+            <type="button" onclick="myFunction()">Para entrar clique no botão 
+                <script>
+                    function myFunction(){
+                    let name = prompt('Qual é o nome do seu cadastro?');
+            
+            
+                    if (name =="Javascript"){ 
+                        acessoPermitido = true
+                    } else {
+                        acessoPermitido = false
+                    }
+             
+                    alert(acessoPermitido ? "Acesso permitido" : "Acesso negado");
+             
+                    if (acessoPermitido){
+                    let nome = prompt('Confirme seu nome, por favor.');
+                        alert(`Obrigado por acessar o site em desenvolvimento ${nome}!`);
+            
+                    let questao = confirm ('Ainda aprendendo, patente Dev Junior.');
+                   
+
+                    document.getElementById("demo").innerHTML = "pronto";
+                    alert("Pronto");
+                    
+                }
+               
+            }
+
+            </script>
+        </button>
+    </body>
+</html>   
