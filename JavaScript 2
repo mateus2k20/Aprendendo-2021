@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+</html>
+
+<body>
+
+    <center>
+        <div class="FUNDO" </div>
+            <img src="C:\Users\mateu\Downloads\20210714_232308 (1).jpg" height="300" width="200" <div>
+            <div>
+                <div>
+                    <h1>BEM VINDO A PAGINA DE APRENDIZAGEM</h2>
+                        <h2>Aprendendo os conceitos basico da programação com o JavaScript</h1>
+                    <h3>Digite seu cadrasto para ter acesso</h3>
+
+                </div>
+                <button> 
+                 
+            <type="button " onclick="myFunction() ">Para entrar clique no botão</button>
+            </div>
+
+            <script>
+                function myFunction() {
+                    let name = prompt('Qual é o nome do seu cadastro?');
+
+                    if (name == "Mateus") {
+                        acessoPermitido = true
+
+                    } else {
+                        acessoPermitido = false
+                    }
+
+                    alert(acessoPermitido ? "Acesso permitido " : "Acesso negado ");
+
+                    if (acessoPermitido) {
+
+                        let nome = prompt('Confirme seu nome, por favor.');
+                        alert(`Obrigado por acessar a pagina em desenvolvimento ${nome}!`);
+
+                        let questao = confirm(' Olá voce acaba de entrar em um pagina ainda em aprendizagem.');
+
+
+
+                        document.getElementById("demo ").innerHTML = ("pronto ")
+                        alert("Pronto ");
+
+                    }
+
+                }
+            </script>
+
+</body>
+
+</html>
